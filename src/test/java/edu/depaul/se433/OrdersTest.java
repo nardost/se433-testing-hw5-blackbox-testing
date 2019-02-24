@@ -7,7 +7,11 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 @SuiteClasses({
 	OrdersStrongNormalTest.class,
-	OrdersStrongRobustnessTest.class
+	OrdersStrongRobustnessTest.class,
+	OrdersStrongNormalBoundaryTest.class,
+	OrdersStrongRobustnessBoundaryTest.class,
+	OrdersWeakNormalSpecialValueTest.class,
+	OrdersWeakRobustnessSpecialValueTest.class
 })
 public class OrdersTest {
 }
