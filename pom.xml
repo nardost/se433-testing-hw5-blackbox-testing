@@ -20,6 +20,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>week6-test-targets</groupId>
 			<artifactId>week6-test-targets</artifactId>
 			<version>1.0</version>

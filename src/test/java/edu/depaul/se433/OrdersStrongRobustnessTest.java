@@ -30,7 +30,7 @@ public class OrdersStrongRobustnessTest {
 		this.destinationState = destinationState;
 	}
 
-	@Parameters(name = "SRT_{index}: input ({0}, {1}, {2}) should cause IllegalArgumentException")
+	@Parameters(name = "SRT_{index}: ({0}, {1}, {2}) -> IllegalArgumentException")
 	public static Collection<Object[]> data() {
 		return (ArrayList<Object[]>) Stream.of(new Object[][] {
 			{Double.NaN, NextDay, "IL"},

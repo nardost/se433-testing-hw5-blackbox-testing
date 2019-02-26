@@ -40,7 +40,7 @@ public class OrdersStrongNormalTest {
 		this.expectedShippingCost = expectedShippingCost;
 	}
 
-	@Parameters(name = "SNT_{index}: input = ({0}, {1}, {2}), expected = {3}")
+	@Parameters(name = "SNT_{index}: ({0}, {1}, {2}) -> {3}")
 	public static Collection<Object[]> data() {
 		return (ArrayList<Object[]>) Stream.of(new Object[][] {
 			{20.00, Standard, "IL", 31.20},

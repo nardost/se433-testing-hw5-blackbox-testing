@@ -31,7 +31,7 @@ public class OrdersStrongRobustnessBoundaryTest {
 		this.destinationState = destinationState;
 	}
 
-	@Parameters(name = "SRBT_{index}: input ({0},{1},{2}) should cause IllegalArgumentException")
+	@Parameters(name = "SRBT_{index}: ({0},{1},{2}) -> IllegalArgumentException")
 	public static Collection<Object[]> data() {
 		return (ArrayList<Object[]>) Stream.of(new Object[][] {
 			{-0.01, Standard, "IL"},

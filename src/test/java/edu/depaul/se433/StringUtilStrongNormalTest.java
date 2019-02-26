@@ -25,10 +25,12 @@ public class StringUtilStrongNormalTest {
 		this.expectedPlural = expectedPlural;
 	}
 
-	@Parameters(name = "SNT_{index}: plural of {0} should be {1}")
+	@Parameters(name = "SNT_{index}: {0} -> {1}")
 	public static Collection<String[]> data() {
 		return (ArrayList<String[]>) Stream.of(new String[][] {
-			{"Ox", "Oxen"},
+			{"Ox", "Oxen"}, /** irregulars */
+			{"Roof", "Roofs"}, /** exceptions to some rules */
+			{"Deer", "Deer"}, /** do not change form in the plural */
 			{"Fox", "Foxes"},
 			{"Wolf", "Wolves"},
 			{"Fly", "Flies"},

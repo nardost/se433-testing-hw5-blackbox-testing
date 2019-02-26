@@ -7,7 +7,8 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 @SuiteClasses({
 	StringUtilStrongNormalTest.class,
-	StringUtilStrongRobustnessTest.class
+	StringUtilStrongRobustnessTest.class,
+	StringUtilSpecialValueTest.class
 })
 public class StringUtilTest {
 }

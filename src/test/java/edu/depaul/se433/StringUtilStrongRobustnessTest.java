@@ -21,7 +21,7 @@ public class StringUtilStrongRobustnessTest {
 		this.word = word;
 	}
 
-	@Parameters(name = "SRT_{index}: ({0}) should cause IllegalArgumentException")
+	@Parameters(name = "SRT_{index}: {0} -> IllegalArgumentException")
 	public static Collection<String[]> data() {
 		return (ArrayList<String[]>) Stream.of(new String[][] {
 			{"Come"},

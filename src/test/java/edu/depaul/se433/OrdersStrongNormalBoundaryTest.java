@@ -35,7 +35,7 @@ public class OrdersStrongNormalBoundaryTest {
 		this.expectedShippingCost = expectedShippingCost;
 	}
 
-	@Parameters(name = "SNBT_{index}: input = ({0},{1},{2}), expected = {3}")
+	@Parameters(name = "SNBT_{index}: ({0},{1},{2}) -> {3}")
 	public static Collection<Object[]> data() {
 		return (ArrayList<Object[]>) Stream.of(new Object[][] {
 			{0.00, Standard, "IL", 0.0},
