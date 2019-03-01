@@ -10,7 +10,7 @@ import org.junit.runners.Suite.SuiteClasses;
 	OrdersStrongRobustnessTest.class,
 	OrdersStrongNormalBoundaryTest.class,
 	OrdersStrongRobustnessBoundaryTest.class,
-	OrdersWeakNormalSpecialValueTest.class,
+	OrdersStrongNormalSpecialValueTest.class,
 	OrdersWeakRobustnessSpecialValueTest.class
 })
 public class OrdersTest {

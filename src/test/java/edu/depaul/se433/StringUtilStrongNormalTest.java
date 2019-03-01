@@ -40,7 +40,7 @@ public class StringUtilStrongNormalTest {
 			{"Crisis", "Crises"},
 			{"Automaton", "Automata"},
 			{"Cats", "Cats"},
-			{"Cow", "Cows"},
+			{"Cow", "Cows"}, /** regular English noun */
 		}).collect(Collectors.toList());
 	}
 
