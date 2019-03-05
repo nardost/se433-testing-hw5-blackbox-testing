@@ -29,22 +29,19 @@ The specification of the method is as follows:
 ### Output:
 * the total shipping cost calculated according to the rules described in Problem 1 of assignment 5 (black box test case design).
 ### Exception:
-* If any of the arguments is invalid, an IllegalArgumentException should be thrown.
+* If any of the arguments is invalid, an ```IllegalArgumentException``` should be thrown.
 ## Program 2: Pluralizer
-The program under test is a Java class named StringUtil in package
-edu.depaul.se433. This class defines a public static method with the
-following signature
-public static String pluralize(String word)
+The program under test is a Java class named ```StringUtil``` in package
+```edu.depaul.se433```. This class defines a public static method with the following signature:
+```public static String pluralize(String word)```
 The specification of the method is as follows:
-Input argument: word is a single word in English.
-Output: If the word is a singular noun, it returns the plural form of
-the noun. Otherwise, it returns the original word.
-Exception: If the argument contains characters not used in any
-English word, an IllegalArgumentException should be
-thrown.
+### Input argument
+* word is a single word in English.
+### Output
+* If the word is a singular noun, it returns the plural form of the noun. Otherwise, it returns the original word.
+### Exception
+* If the argument contains characters not used in any English word, an ```llegalArgumentException``` should be thrown.
 ## Binary Code of Program Under Test
-The binary code of both programs under test is provided in a jar file
-named week6-test-targets.jar. Create a folder named “lib” in the root folder
-of the project and copy the jar to that folder.
-Follow the instructions in the presentation to make the required pom file
-changes to make the jar file usable by your tests.
+The binary code of both programs under test is provided in a jar file named ```week6-test-targets.jar```.
+Create a folder named ```lib``` in the root folder of the project and copy the jar to that folder.
+Follow the instructions in the presentation to make the required pom file changes to make the jar file usable by your tests.
