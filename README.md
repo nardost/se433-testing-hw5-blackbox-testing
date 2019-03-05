@@ -34,9 +34,9 @@ The class under test is ```edu.depaul.se433.StringUtil```. This class defines a 
 ```public static String pluralize(String word)```
 The specification of the method is as follows:
 ### Input
-* word is a single word in English.
+* ```word``` is a single word in English.
 ### Output
-* If the word is a singular noun, it returns the plural form of the noun. Otherwise, it returns the original word.
+* If ```word``` is a singular noun, the method returns the plural form of the noun. Otherwise, it returns the original word.
 ### Exception
 * If the argument contains characters not used in any English word, an ```llegalArgumentException``` should be thrown.
 ## Binary Code of Program Under Test
