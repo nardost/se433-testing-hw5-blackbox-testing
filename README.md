@@ -14,28 +14,27 @@ black-box testing techniques to design the test cases. Use Maven to run
 the entire testing process, which includes compilation and the execution of
 each of the test suites.
 ## Program 1: Shipping Cost Calculator
-The program under test is a Java class named Orders in package
-edu.depaul.se433. The class declares an enum type ShippingMethod and a
-public static method calculateTotal with the following signature:
+The program under test is ```edu.depaul.se433.Orders```. The class declares an ```enum``` type ```ShippingMethod``` and a
+```public static``` method ```calculateTotal``` with the following signature:
 ```
 public enum ShippingMethod { Standard, NextDay };
 public static double calculateTotal(double rawTotal, ShippingMethod shippingMethod, String destinationState)
 ```
 The specification of the method is as follows:
-### Input arguments:
+### Input
 * ```rawTotal```: the raw total of all items in the order.
 * ```shippingMethod```: the shipping method
 * ```destinationState```: the state of the shipping address
-### Output:
+### Output
 * the total shipping cost calculated according to the rules described in Problem 1 of assignment 5 (black box test case design).
-### Exception:
+### Exception
 * If any of the arguments is invalid, an ```IllegalArgumentException``` should be thrown.
 ## Program 2: Pluralizer
 The program under test is a Java class named ```StringUtil``` in package
 ```edu.depaul.se433```. This class defines a public static method with the following signature:
 ```public static String pluralize(String word)```
 The specification of the method is as follows:
-### Input argument
+### Input
 * word is a single word in English.
 ### Output
 * If the word is a singular noun, it returns the plural form of the noun. Otherwise, it returns the original word.
