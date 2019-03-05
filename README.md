@@ -45,5 +45,5 @@ The specification of the method is as follows:
 The binary code of both programs under test is provided in a jar file named ```week6-test-targets.jar```.
 Create a folder named ```lib``` in the root folder of the project and copy the jar to that folder.
 Follow the instructions in the presentation to make the required pom file changes to make the jar file usable by your tests.
-You should create a ZIP file by executing:
+### You should create a ZIP file by executing:
 ```mvn clean package -Dmaven.test.failure.ignore=true```
