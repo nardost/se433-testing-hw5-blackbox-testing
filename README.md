@@ -14,7 +14,7 @@ black-box testing techniques to design the test cases. Use Maven to run
 the entire testing process, which includes compilation and the execution of
 each of the test suites.
 ## Program 1: Shipping Cost Calculator
-The program under test is ```edu.depaul.se433.Orders```. The class declares an ```enum``` type ```ShippingMethod``` and a
+The class under test is ```edu.depaul.se433.Orders```. The class declares an ```enum``` type ```ShippingMethod``` and a
 ```public static``` method ```calculateTotal``` with the following signature:
 ```
 public enum ShippingMethod { Standard, NextDay };
@@ -30,8 +30,7 @@ The specification of the method is as follows:
 ### Exception
 * If any of the arguments is invalid, an ```IllegalArgumentException``` should be thrown.
 ## Program 2: Pluralizer
-The program under test is a Java class named ```StringUtil``` in package
-```edu.depaul.se433```. This class defines a public static method with the following signature:
+The class under test is ```edu.depaul.se433.StringUtil```. This class defines a public static method with the following signature:
 ```public static String pluralize(String word)```
 The specification of the method is as follows:
 ### Input
