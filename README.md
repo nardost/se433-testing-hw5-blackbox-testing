@@ -2,12 +2,10 @@
 ## Assignment 6 Black Box Testing
 ## Part 2: Test Case Implementation
 ## Objectives
-___
 1. Design test suites using black-box techniques.
 2. Implement the test suites using JUnit.
 3. Run the test suites using Maven command line.
 ## Problems
-___
 In this assignment, you are given two classes to test. For each class, the
 specification is given below, and the compiled Java code is also provided.
 Design and implement a test suite using JUnit to adequately test the
@@ -16,7 +14,6 @@ black-box testing techniques to design the test cases. Use Maven to run
 the entire testing process, which includes compilation and the execution of
 each of the test suites.
 ## Program 1: Shipping Cost Calculator
-___
 The program under test is a Java class named Orders in package
 edu.depaul.se433. The class declares an enum type ShippingMethod and a
 public static method calculateTotal with the following signature
@@ -35,7 +32,6 @@ design).
 Exception: If any of the arguments is invalid, an
 IllegalArgumentException should be thrown.
 ## Program 2: Pluralizer
-___
 The program under test is a Java class named StringUtil in package
 edu.depaul.se433. This class defines a public static method with the
 following signature
@@ -48,7 +44,6 @@ Exception: If the argument contains characters not used in any
 English word, an IllegalArgumentException should be
 thrown.
 ## Binary Code of Program Under Test
-___
 The binary code of both programs under test is provided in a jar file
 named week6-test-targets.jar. Create a folder named “lib” in the root folder
 of the project and copy the jar to that folder.
